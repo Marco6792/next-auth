@@ -1,19 +1,12 @@
 "use client";
-import {
-	Card,
-	CardContent,
-	CardDescription,
-	CardFooter,
-	CardHeader,
-	CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardFooter, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 import React, { ChangeEvent, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 import { Input } from "@/components/ui/input";
 import { Label } from "@radix-ui/react-dropdown-menu";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { ShapeContainer, ShapeContent, clipPath } from "@/components/ui/shapes";
 import { ChevronRight } from "lucide-react";
 import { Toaster, toast } from "sonner";
@@ -108,7 +101,7 @@ export default function SignUpPage() {
 					</Button>
 					<CardFooter className="text-slate-400 p-2">
 						<span>
-							don't have an account ? {""}
+							don&apos;t have an account ? {""}
 							<Link href={"/signup"} className="text-blue-600">
 								signup
 							</Link>
