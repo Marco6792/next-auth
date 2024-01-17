@@ -9,7 +9,7 @@ import { Label } from "@radix-ui/react-dropdown-menu";
 import { Button } from "@/components/ui/button";
 import { ShapeContainer, ShapeContent, clipPath } from "@/components/ui/shapes";
 import { Toaster, toast } from "sonner";
-import { ArrowRightCircle, ArrowRightIcon, ChevronRight } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 
 type UserType = {
 	username: string;
