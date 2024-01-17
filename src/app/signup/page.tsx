@@ -70,7 +70,7 @@ export default function SignUpPage() {
 			</div>
 			<span className="absolute -translate-x-96">{loading && toast.loading("loading...")}</span>
 			<Card className="p-5 max-w-md mx-auto ">
-				<Toaster duration={2000} richColors position="top-center" />
+				<Toaster richColors position="top-center" />
 				<ShapeContainer>
 					<ShapeContent
 						style={{ clipPath: clipPath.clipPathTwo }}

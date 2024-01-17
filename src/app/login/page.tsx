@@ -45,7 +45,7 @@ export default function SignUpPage() {
 		try {
 			setLoading(true);
 			const res = await axios.post("/api/users/login", user);
-			toast.success("login successfully");
+			toast.success("login successfully", { duration: 2000 });
 			router.push("/");
 		} catch (error: any) {
 			console.log("login failed");
