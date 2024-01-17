@@ -57,7 +57,7 @@ export default function SignUpPage() {
 
 	return (
 		<div className="mt-14 p-4">
-			<Toaster richColors />
+			<Toaster richColors position="top-center" />
 			<span className="absolute -translate-x-96">{loading && toast.loading("loading...")}</span>
 			<div className="flex space-x-3 mx-auto max-w-md pb-4 items-center">
 				<Link href={"/"} className="text-2xl hover:text-slate-300">
